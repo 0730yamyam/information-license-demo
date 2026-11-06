@@ -1,13 +1,30 @@
-情報免許証・地震画像比較デモ 更新版
+情報免許証・比較デモ（プレゼン用試作品）
+================================================
 
-GitHub Pages更新手順
-1. ZIPを展開する
-2. GitHubで information-license-demo リポジトリを開く
-3. Add file → Upload files（または uploading an existing file）を選ぶ
-4. index.html をアップロードし、Commit changes を押す
-5. 数分待って公開ページを再読み込みする
+■ 内容
+- index.html：スマートフォン対応のデモWebページ
+- 架空の公的発表を想定した情報Aと、出典不明のSNS投稿Bを比較
+- 各情報の発信源、出典・根拠、日時、加工履歴、AI生成の申告・判定状況、検証履歴を表示
+- Web公開後、ページ自身のURLをQRコードとして自動表示
 
-公開URLは変更不要です：
-https://0730yamyam.github.io/information-license-demo/
+■ 重要な注意
+この試作品は表示・操作を体験するためのフロントエンドデモです。
+実際のAIによる真偽判定、外部情報との照合、ブロックチェーンへの記録は実装していません。
+掲載情報はすべて架空です。「未確認」は「偽情報」と同義ではありません。
 
-注意：自治体名・日時・投稿は架空です。情報Aの画像も説明用の架空画像、情報Bの画像はAI生成のデモ画像です。実際のAI判定やブロックチェーン記録は実装していません。
+■ QRコードを使ってスマホで開く方法
+1. index.htmlをWeb上に公開します（例：GitHub Pages）。
+2. 公開されたURLをパソコンで開きます。
+3. ページ上部に、そのURLを開くQRコードが自動表示されます。
+4. 発表時はそのページまたはQRコードをスクリーンに表示し、スマートフォンで読み取ります。
+
+■ GitHub Pagesでの公開例
+1. GitHubにログインし、新しいPublic repositoryを作成（例：information-license-demo）。
+2. index.htmlをリポジトリ直下にアップロード。
+3. Settings → Pages → Deploy from a branch を選択。
+4. Branch: main / Folder: /(root) を選択してSave。
+5. 数分後に表示される https://ユーザー名.github.io/information-license-demo/ を開く。
+6. QRコードが表示されたことを確認してから発表資料に使用します。
+
+GitHubアカウントへのログインや公開操作は、ユーザーご本人の操作が必要です。
+公開URLが決まったら、そのURLをQRコード画像としてPPTに貼り込めます。
